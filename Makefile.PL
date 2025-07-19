@@ -35,7 +35,7 @@ WriteMakefile(
                           }, 
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Crypt/OpenSSL/EC.pm', # retrieve abstract from module
-       AUTHOR         => 'Mike McCauley <mikem@airspayce.com>') : ()),
+       AUTHOR         => ['Mike McCauley <mikem@airspayce.com>','Gabriele Gristina a.k.a. matrix)] : ()),
     LIBS              => [ $lib ],
     DEFINE            => '-DPERL5 -DOPENSSL_NO_KRB5',
     INC               => $inc,

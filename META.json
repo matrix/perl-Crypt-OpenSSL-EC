@@ -1,7 +1,8 @@
 {
    "abstract" : "Perl extension for OpenSSL EC (Elliptic Curves) library",
    "author" : [
-      "Mike McCauley <mikem@airspayce.com>"
+      "Mike McCauley <mikem@airspayce.com>",
+      "Gabriele Gristina a.k.a. matrix"
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
@@ -37,6 +38,6 @@
       }
    },
    "release_status" : "stable",
-   "version" : "1.32",
+   "version" : "1.33",
    "x_serialization_backend" : "JSON::PP version 2.97001"
 }

@@ -1,5 +1,8 @@
 Revision history for Perl extension Crypt::OpenSSL::EC.
 
+1.33    2025-07-29
+        Fixed build on Apple Silicon
+
 1.32	 2020-03-18
 	Fixed some spelling errors reported by lintian via Xavier Guimard.
 	Patch from Heikki Vatiainen:
